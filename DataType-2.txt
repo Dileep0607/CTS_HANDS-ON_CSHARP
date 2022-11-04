@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace dt
+{
+    internal class _2
+    {
+        public static void FindSquare(int i)
+        {
+            int n = 0;
+            s = i * i;
+            Console.WriteLine($"Square of {i} is {n}");
+        }
+        public static void FindCube(int i)
+        {
+            int m = 0;
+            c = i * i * i;
+            Console.WriteLine($"Cube of {i} is {m}");
+        }
+        public static void Main(String[] Args)
+        {
+            int i;
+            Console.WriteLine("Enter a no : ");
+            i = int.Parse(Console.ReadLine());
+            FindSquare(i);
+            FindCube(i);
+        }
+    }
+}
